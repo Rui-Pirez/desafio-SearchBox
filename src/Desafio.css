@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.search-box {
+  position: relative;
+}
+
+input {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  width: 350px;
+  margin-left: -35px;
+  margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input.icons{
+  border-color:rgb(255, 0, 0);
+}
+.icon {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+}
+.icon i {
+  font-size: 18px;
+}
+
+.fa-search {
+  color: gray;
+}
+
+.Product {
+  background-color: white !important;
+  padding: 20px;
+  width: 400px;
+  margin-bottom: 1px;
+  border-radius: 0px;
+  color: black;
+  text-align: left;
+
+  display: flex;
+}
+
+.Product h3 {
+  margin: 0;
+  font-size: 20px;
+  
+}
+
+.Product img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  
+}
+
+.Product small {
+  font-size: 12px;
+  color: gray;
+}
+
+
+.fa, .fas {
+  font-weight: 900;
+  color: #f95454;
+}
+
+
+h1{
+  font-size: 45px;
+}
+
+.search-box{
+  width: 450px;
+  
+ 
+margin-top: 20px;
+  background: #F5F5F5;
+
+  transform: translate(-0%, -0%);
+  border-radius: 10px 58px 58px 10px;
+  
+}
