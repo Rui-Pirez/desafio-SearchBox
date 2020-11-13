@@ -3,14 +3,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #f8f8f8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 10vh;
   font-size: calc(10px + 2vmin);
-  color: white;
+
+  color: rgb(0, 0, 0);
 }
 
 .App-link {
@@ -24,23 +25,35 @@
 input {
   padding: 10px 20px;
   border-radius: 10px;
-  border: none;
   width: 350px;
   margin-left: -35px;
   margin-top: 10px;
     margin-bottom: 10px;
+    border: rgb(235, 51, 51);
+    border-style: solid;
 }
 
-.input.icons{
-  border-color:rgb(255, 0, 0);
+input a:hover{
+  border: rgb(84, 209, 12);
+  border-style: solid;
 }
+
+
+input a:active{
+  border: blue;
+  border-style: solid;
+}
+
+
+
 .icon {
   position: absolute;
   top: 6px;
-  right: 10px;
+  right: 70px;
 }
 .icon i {
   font-size: 18px;
+  margin-top: 12px;
 }
 
 .fa-search {
@@ -62,7 +75,15 @@ input {
 .Product h3 {
   margin: 0;
   font-size: 20px;
+  font-weight: 600;
+  margin-bottom: -10px;
   
+}
+
+
+  h3 {
+    margin-right: 262px;
+    font-weight: 400;
 }
 
 .Product img {
@@ -86,6 +107,7 @@ input {
 
 h1{
   font-size: 45px;
+  font-weight: 400;
 }
 
 .search-box{
@@ -93,7 +115,7 @@ h1{
   
  
 margin-top: 20px;
-  background: #F5F5F5;
+  background: #ececec;
 
   transform: translate(-0%, -0%);
   border-radius: 10px 58px 58px 10px;
