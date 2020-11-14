@@ -1,4 +1,4 @@
-# Desafio - Rui Pirez
+# Desafio 
 
 <img src=".gitimages/cover.png">
 
